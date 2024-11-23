@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Calibri', sans-serif; /* Calibri font for body text */
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-family: 'Calibri', sans-serif; /* Calibri font for header */
+}
+
+/* Input Section Styling */
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Calibri', sans-serif; /* Calibri font for input */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Calibri', sans-serif; /* Calibri font for button */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Re
